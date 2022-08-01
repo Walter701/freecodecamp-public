@@ -1,0 +1,77 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+#nav {
+    position: fixed;
+    width: 400px;
+    min-width: 400px;
+    top: 0;
+    overflow: hidden;
+}
+
+#main {
+    position: relative;
+    top: 0;
+    margin-left: 400px;
+    border-left: 2px solid black;
+
+}
+
+#main-doc {
+    position: relative;
+    margin-left: 4%;
+}
+
+#navbar>div {
+    border-top: 2px solid black;
+    padding: 10px 5px;
+}
+
+#navbar>header {
+    font-size: 40px;
+    padding: 20px 5px;
+}
+
+#navbar>div>a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+#navbar>div>a:hover {
+    background: #ddd;
+    color: black;
+}
+
+#main-doc>section>header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#main-doc>section>p {
+    font-size: 30px;
+}
+
+#main-doc>section>code {
+    font-size: 20px;
+}
+
+#main-doc>section>ul>li {
+    font-size: 30px;
+}
+
+
